@@ -12,7 +12,8 @@
     &__logo {
         max-width: 170px;
         img {
-            height: 40px;
+            width: 172px; 
+            height: 57px;
         }
     }
     &__links {
@@ -31,7 +32,7 @@
             display: block;
             width: 110%;
             left: -5%;
-            bottom: -1px;
+            bottom: 4px;
             z-index: -1;
             height: 8px;
             background: $primary;
@@ -44,8 +45,17 @@
             text-decoration: none;
             color: $dark;
             &::after {
-                height: 26px;
+                height: 20px;
             }
         }
+    }
+    &__bg {
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        top: 0;
+        width: 50vw;
+        height: 150px;
+        background: rgba(146, 242, 255, 0.15);
     }
 }
