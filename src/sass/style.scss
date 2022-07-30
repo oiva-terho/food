@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext');
 @import './reboot';
 @import './variables';
+@import './animations';
 
 @import './parts/btn';
 @import './parts/header';
+@import './parts/preview';
 
 html {
   font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
