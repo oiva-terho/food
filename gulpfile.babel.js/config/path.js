@@ -25,7 +25,7 @@ export const path = {
         dest: `${pathDest}/img`
     },
     svg: {
-        src: `${pathSrc}/svg/**/*.svg`,
-        dest: pathSrc
+        src: `${pathSrc}/svg/*.svg`,
+        dest: pathDest
     },
 };

@@ -35,7 +35,7 @@ export const app = {
         mode: {
             stack: {
                 sprite: `../img/icons.svg`,
-                example: true
+                example: false
             }
         }
     }

@@ -48,7 +48,7 @@ const watcher = () => {
 const build = gulp.series(
     // font,
     clear,
-    gulp.parallel(pug, sass, js, img)
+    gulp.parallel(pug, sass, js, img, svg)
 );
 
 const dev = gulp.series(
