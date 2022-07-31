@@ -1,7 +1,7 @@
 'use strict';
 
-function helloWorld () {
-    console.log('hello world')
-}
+import tabs from './module/tabs';
 
-helloWorld();
+window.addEventListener('DOMContentLoaded', () => {
+    tabs();
+});

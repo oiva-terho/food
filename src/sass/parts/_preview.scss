@@ -3,7 +3,8 @@
     padding-bottom: 126px;
     &__life {
         font-weight: bold;
-        font-size: 20px;
+        font-style: italic;
+        font-size: $font-large;
         margin-left: 35px;
         margin-top: 35px;
     }
@@ -40,7 +41,7 @@
             height: 359px;
             background: rgba(251, 254, 93, 0.8);
             padding: 50px;
-            font-size: 24px;
+            font-size: $font-large;
             font-weight: 300;
             line-height: 36px;
             color: rgba(0, 0, 0, 0.7);
@@ -53,9 +54,9 @@
         width: 280px;
         padding: 35px 30px;
         background-color: #fff;
-        h3 {
+        h1 {
             font-weight: bold;
-            font-size: 16px;
+            font-size: $font-medium;
         }
         &__items {
             margin-top: 35px;
@@ -63,16 +64,19 @@
             border-left: 1px solid black;
         }
         &__item {
+            border: none;
+            background-color: none;
+            display: block;
             font-weight: bold;
-            font-size: 18px;
+            height: 26px;
+            font-size:$font-medium;
             font-weight: 300;
             margin-top: 10px;
             color: rgba(0, 0, 0, 0.6);
-            cursor: pointer;
             transition: 0.3s all;
             &_active {
                 color: #000;
-                font-size: 22px;
+                font-size: $font-large;
                 font-weight: 700;
             }
         }
