@@ -13,6 +13,14 @@
   transition: 0.3s all;
   outline: none;
   &_white {
-      background-color: #fff;
+    background-color: #fff;
   }
+  &_dark {
+    background-color: $color-dark;
+    color: #fff;
+    border: none;
+  }
+  &:hover {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3); 
+}
 }
