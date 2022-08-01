@@ -4,6 +4,7 @@
 @import './animations';
 
 @import './parts/btn';
+@import './parts/calculating';
 @import './parts/header';
 @import './parts/offer';
 @import './parts/preview';
@@ -14,4 +15,15 @@ html {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+.divider {
+  width: 330px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);;
+}
+
+.title {
+  font-size: $font-x-large;
+  font-weight: 400;
 }

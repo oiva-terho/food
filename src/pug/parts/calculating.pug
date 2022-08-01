@@ -1,0 +1,31 @@
+.calculating
+    .container
+        h2.title
+            | Let's calculate your calorie intake
+        .calculating__field
+            .calculating__subtitle
+                | Your gender
+            #gender.calculating__choose
+                .calculating__choose-item(id='female') Female
+                .calculating__choose-item(id='male') Male
+            .calculating__subtitle
+                | Your body constitiution
+            .calculating__choose.calculating__choose_medium
+                input#height.calculating__choose-item(type='text' placeholder='Enter height, cm')
+                input#weight.calculating__choose-item(type='text' placeholder='Enter weight, kg')
+                input#age.calculating__choose-item(type='text' placeholder='Enter age, years')
+            .calculating__subtitle
+                | Your activity level
+            #ratio.calculating__choose.calculating__choose_big
+                .calculating__choose-item(data-ratio='1.2' title='Little or no exercise') Sedentary lifestyle
+                .calculating__choose-item(data-ratio='1.375' title='Weak activity or light physical activity 1-2 times a week') Weak activity
+                .calculating__choose-item(data-ratio='1.55' title='Sports 3-5 days/week') Moderate exercise
+                .calculating__choose-item(data-ratio='1.725' title=' Training 5-7 times a week') Intensive training 
+            .calculating__divider
+            .calculating__total
+                .calculating__subtitle
+                | Your daily calorie intake:
+                .calculating__result
+                    span ____
+                    |  kcal
+.divider
