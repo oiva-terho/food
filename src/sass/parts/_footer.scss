@@ -1,0 +1,41 @@
+.footer {
+    background-color: $color-dark;
+    padding: 15px 0;
+    color: #fff;
+    margin-top: auto;
+    .container {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        & > div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .subtitle {
+                font-size: $font-medium;
+            }
+        }
+        .social {
+            justify-content: center;
+            img{
+                width: $font-large; 
+                height: $font-large;
+            }
+            a:first-of-type {
+                margin: 0 20px;
+            }
+        }
+        .pepper {
+            justify-content: center;
+            img{
+                width: 42px; 
+                height: 42px;
+            }
+        }
+        .link {
+            display: block;
+            font-size: $font-small;
+            color: #fff;
+        }
+    }
+}
