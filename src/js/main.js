@@ -3,6 +3,8 @@
 import tabs from './module/tabs';
 import slider from './module/slider';
 import calculator from './module/calculator';
+import menu from './module/menu';
+
 
 const server = 'http://localhost:3000/';
 
@@ -14,4 +16,5 @@ window.addEventListener('DOMContentLoaded', () => {
     } catch (error) {
         console.log('Calculator error: ', error);
     }
+    menu(server);
 });

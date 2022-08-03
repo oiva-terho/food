@@ -16,5 +16,28 @@
       "img": "img/slider/paprika.jpg",
       "altimg": "paprika"
     }
-    ]
+  ],
+  "menu": [
+    {
+      "img": "img/tabs/vegy.jpg",
+      "altimg": "vegy",
+      "title": "Menu 'Fitness'",
+      "descr": "A new approach to cooking: more fresh vegetables and fruits. For people who are interested in sports; active and healthy. This is a brand new product with the best price and high quality!",
+      "price": 9
+    },
+    {
+      "img": "img/tabs/post.jpg",
+      "altimg": "post",
+      "title": "Menu 'Lenten'",
+      "descr": "Our special 'Lenten Menu' is a careful selection of ingredients: the complete absence of animal products. Complete harmony with yourself and nature in every element! Everything will be Yum!",
+      "price": 14
+    },
+    {
+      "img": "img/tabs/elite.jpg",
+      "altimg": "elite",
+      "title": "Menu 'Premium'",
+      "descr": "We use not only beautiful packaging design, but also high-quality execution of dishes. Red fish, seafood, fruits - a restaurant menu without going to a restaurant!",
+      "price": 21
+    }
+  ]
 }
