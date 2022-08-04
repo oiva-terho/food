@@ -7,6 +7,7 @@ import calculator from './module/calculator';
 import menu from './module/menu';
 import timer from './module/timer';
 import modals from './module/modal';
+import forms from './module/forms';
 
 const server = 'http://localhost:3000/';
 
@@ -21,4 +22,5 @@ window.addEventListener('DOMContentLoaded', () => {
     menu(server);
     timer(db.deadline);
     modals();
+    forms(server);
 });
