@@ -9,13 +9,9 @@
         justify-content: space-between;
         min-width: 600px;
     }
-    &__logo {
-        max-width: 170px;
-        img {
+    &__logo img {
             width: 220px; 
-            height: 54px;
         }
-    }
     &__links {
         display: flex;
         align-items: center;

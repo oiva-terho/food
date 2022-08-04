@@ -1,0 +1,9 @@
+.modal
+    .modal__dialog
+        .modal__content
+            form(action='#')
+                .modal__close(data-close='') &times;
+                .modal__title We'll contact you as soon as possible!
+                input.modal__input(required='' placeholder='Your name' name='name' type='text')
+                input.modal__input(required='' placeholder='Your phone number' name='phone' type='phone')
+                button.btn.btn_dark.btn_min Call me back
