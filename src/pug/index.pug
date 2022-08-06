@@ -2,10 +2,19 @@ extends layout/app
 block vars
     - var pageTitle = 'Ready meals for healty life'
 block page 
-        include parts/preview
-        include parts/offer
-        include parts/calculating
-        include parts/order
-        include parts/promotion
-        include parts/modal
+    sidebar.sidepanel
+        .sidepanel__text
+            span Social
+        .sidepanel__divider
+        a.sidepanel__icon(href='#')
+            img(src='img/icons.svg#instagram' alt='instagram')
+        a.sidepanel__icon(href='#')
+            img(src='img/icons.svg#facebook' alt='facebook')
+
+    include parts/preview
+    include parts/offer
+    include parts/calculating
+    include parts/order
+    include parts/promotion
+    include parts/modal
 
