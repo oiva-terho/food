@@ -1,0 +1,48 @@
+.side-img {
+  position: relative;
+  width: 100%;
+  min-width: 800px;
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    transform: translate(0, 50%);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  &.bowl::after {
+    left: 0;
+    width: 200px;
+    height: 419px;
+    transform: translate(0, 100%);
+    background-image: url('./img/side/bowl.png');
+  }
+  &.pasta::after {
+    right: 0;
+    width: 496px;
+    height: 686px;
+    z-index: 1;
+    transform: translate(20%, 100%);
+    background-image: url('./img/side/pasta.png');
+  }
+  &.tomatos::after {
+    left: 0;
+    width: 350px;
+    height: 835px;
+    background-image: url('./img/side/tomatos.png');
+  }
+  &.plate::after {
+    left: 0;
+    width: 403px;
+    height: 630px;
+    background-image: url('./img/side/plate.png');
+  }
+  &.spice-board::after {
+    right: 0;
+    width: 437px;
+    height: 809px;
+    background-position: right;
+    background-image: url('./img/side/spice-board.png');
+  }
+}
