@@ -1,0 +1,12 @@
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  height: 340px;
+  background: url('./img/bg-wood.jpg') center center/cover no-repeat;
+  h2 {
+    color: $color-dark;
+    font-size: $font-x-large;
+  }
+}
