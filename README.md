@@ -1,8 +1,7 @@
 # Multipage buisness-card
 
-Production ready site with basic server data fetching. 
+Site with basic server data fetching. Currently have no deploy due to the need of running server.
 Stack: pug, sass, vanilla JS, gulp.
-After build, can be started from dist folder directly.
 
 ## Features
 
